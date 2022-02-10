@@ -26,10 +26,12 @@ async def group_filters(client, message):
             if SPELL_MODE:
                 reply = search.replace(" ", '+')
                 reply_markup = InlineKeyboardMarkup([[
-                 InlineKeyboardButton("🎗️ Google 🎗️", url=f"https://www.google.com/search?q={reply}")
+                 InlineKeyboardButton("🎗️ 𝚂𝙴𝙰𝚁𝙲𝙷 𝙾𝙽 𝙶𝙾𝙾𝙶𝙻𝙴 🎗️", url=f"https://www.google.com/search?q={reply}"),
                  ],[
-                 InlineKeyboardButton("🔍IMDB", url=f"https://www.imdb.com/find?q={reply}"),
-                 InlineKeyboardButton("Wikipedia🔎", url=f"https://en.m.wikipedia.org/w/index.php?search={reply}")
+                 InlineKeyboardButton("🔍𝙸𝙼𝙳𝙱", url=f"https://www.imdb.com/find?q={reply}"),
+                 InlineKeyboardButton("𝚆𝙸𝙺𝙸𝙿𝙴𝙳𝙸𝙰🔎", url=f"https://en.m.wikipedia.org/w/index.php?search={reply}"),
+                 ],[
+                 InlineKeyboardButton("🔎𝚂𝙴𝙰𝚁𝙲𝙷 𝚈𝙾𝚄𝚁 𝚂𝙴𝙻𝙵🔍", switch_inline_query_current_chat='')
                  ]]  
                 )    
                 LuciferMoringstar_delete=await message.reply_text(
