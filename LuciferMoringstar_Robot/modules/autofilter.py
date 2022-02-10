@@ -24,8 +24,8 @@ async def group_filters(client, message):
                 )
         else:
             if SPELL_MODE:
-                reply = search.replace("CAACAgUAAxkBAAEB1nJiBLoK1Rp1appoQ3nxIz3QFJxhYQACOQADVfm9KGB1eAppstsRHgQ",)  
-                reply_markup = InlineKeyboardMarkup([[
+                 reply = search.replace(" ", '+')
+                 reply_markup = InlineKeyboardMarkup([[
                  InlineKeyboardButton("🎗️ Google 🎗️", url=f"https://www.google.com/search?q={reply}")
                  ],[
                  InlineKeyboardButton("🔍IMDB", url=f"https://www.imdb.com/find?q={reply}"),
