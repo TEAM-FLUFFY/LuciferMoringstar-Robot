@@ -22,7 +22,7 @@ class LuciferMoringstar(object):
 
 📽️ 𝖬𝖮𝖵𝖨𝖤 𝖦𝖱𝖮𝖴𝖯 : [𝗔𝗛 𝗚𝗥𝗢𝗨𝗣](t.me/TEAM_KERALA)"""
 
-    FILE_CAPTIONS = """Hello 👋 {mention}\n\n📁Title {title}\n\n🔘Size {size}"""
+    FILE_CAPTIONS = """𝙷𝙴𝚈 {mention} 𝚈𝙾𝚄𝚁 𝙵𝙸𝙻𝙴 𝙸𝚂 👇.. \n\n📁Title {title}\n\n🔘Size {size}"""
 
     PR0FESS0R_99 = """
 **ADMINS COMMANDS**
