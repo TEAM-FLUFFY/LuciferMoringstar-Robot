@@ -31,7 +31,7 @@ async def group_filters(client, message):
                  InlineKeyboardButton("🔍𝙸𝙼𝙳𝙱", url=f"https://www.imdb.com/find?q={reply}"),
                  InlineKeyboardButton("𝚆𝙸𝙺𝙸𝙿𝙴𝙳𝙸𝙰🔎", url=f"https://en.m.wikipedia.org/w/index.php?search={reply}"),
                  ],[
-                 InlineKeyboardButton("🔎𝚂𝙴𝙰𝚁𝙲𝙷 𝚈𝙾𝚄𝚁 𝚂𝙴𝙻𝙵🔍", switch_inline_query_current_chat='')
+                 InlineKeyboardButton("👻𝙰𝙳𝙳 𝙼𝙴 𝚃𝙾 𝙰 𝙶𝚁𝙾𝚄𝙿👻", url=f"http://t.me/AH_v3autofilterbot?startgroup=true")
                  ]]  
                 )    
                 LuciferMoringstar_delete=await message.reply_text(
